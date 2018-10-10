@@ -1,0 +1,76 @@
+@font-face{
+    font-family: OptimaLTStd-Black;
+    src: url(../font/Linotype-OptimaLTStd-Black.otf) format("opentype");
+}
+@font-face{
+    font-family: OptimaLTStd-BlackItalic;
+    src: url(../font/Linotype-OptimaLTStd-BlackItalic.otf) format("opentype");
+}
+@font-face{
+    font-family: OptimaLTStd-Bold;
+    src: url(../font/Linotype-OptimaLTStd-Bold.otf) format("opentype");
+}
+@font-face{
+    font-family: OptimaLTStd-BoldItalic;
+    src: url(../font/Linotype-OptimaLTStd-BoldItalic.otf) format("opentype");
+}
+@font-face{
+    font-family: OptimaLTStd-DemiBold;
+    src: url(../font/Linotype-OptimaLTStd-DemiBold.otf) format("opentype");
+}
+@font-face{
+    font-family: OptimaLTStd-DemiBoldItalic;
+    src: url(../font/Linotype-OptimaLTStd-DemiBoldItalic.otf) format("opentype");
+}
+@font-face{
+    font-family: OptimaLTStd-ExtraBlack;
+    src: url(../font/Linotype-OptimaLTStd-ExtraBlack.otf) format("opentype");
+}
+@font-face{
+    font-family: OptimaLTStd-Italic;
+    src: url(../font/Linotype-OptimaLTStd-Italic.otf) format("opentype");
+}
+@font-face{
+    font-family: OptimaLTStd-Medium;
+    src: url(../font/Linotype-OptimaLTStd-Medium.otf) format("opentype");
+}
+@font-face{
+    font-family: OptimaLTStd-MediumItalic;
+    src: url(../font/Linotype-OptimaLTStd-MediumItalic.otf) format("opentype");
+}
+@font-face{
+    font-family: OptimaLTStd-XBlackItalic;
+    src: url(../font/Linotype-OptimaLTStd-XBlackItalic.otf) format("opentype");
+}
+@font-face{
+    font-family: Linotype-OptimaLTStd;
+    src: url(../font/Linotype-OptimaLTStd.otf) format("opentype");
+}
+@font-face{
+    font-family: PxGrotesk-Bold;
+    src: url(../font/PxGrotesk-Bold.otf) format("opentype");
+}
+@font-face{
+    font-family: PxGrotesk-BoldIta;
+    src: url(../font/PxGrotesk-BoldIta.otf) format("opentype");
+}
+@font-face{
+    font-family: PxGrotesk-Light;
+    src: url(../font/PxGrotesk-Light.otf) format("opentype");
+}
+@font-face{
+    font-family: PxGrotesk-LightIta;
+    src: url(../font/PxGrotesk-LightIta.otf) format("opentype");
+}
+@font-face{
+    font-family: PxGrotesk-Regular;
+    src: url(../font/PxGrotesk-Regular.otf) format("opentype");
+}
+@font-face{
+    font-family: PxGrotesk-RegularIta;
+    src: url(../font/PxGrotesk-RegularIta.otf) format("opentype");
+}
+@font-face{
+    font-family: PxGrotesk-Screen;
+    src: url(../font/PxGrotesk-Screen.otf) format("opentype");
+}
