@@ -12,7 +12,7 @@ class TopCard extends Component {
                 Your Trip
             </div>
             <div className="section-b">
-                5:45 <span className="clock">PM</span>
+                5:39 <span className="clock">PM</span>
             </div>
             <div className="section-c">
                 Estimated arrival at DFW int Airport - Terminal E
@@ -21,11 +21,11 @@ class TopCard extends Component {
               <div><hr/></div>
               <div><hr/></div>
               <div><hr/></div>
-              <div>Estimated Fare:<br/>$65 - $75
+              <div>Estimated Fare:<br/><span className="bold">$65 - $75</span>
               <img className="info" src={Info} alt="info icon" />
               </div>
-              <div>Passengers:<br/>1-5</div>
-              <div>Payment:<br/>Amex01</div>
+              <div>Passengers:<br/><span className="bold">1-5</span></div>
+              <div>Payment:<br/><span className="bold">Amex01</span></div>
             </div>
             <div className="section-d">449 Flora St.<br/>Dallas,Texas 75201</div>
             <div className="hr2"><hr/></div>

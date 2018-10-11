@@ -12,6 +12,9 @@
  justify-self: center;
  margin-top: 1em;
 }
+.h-img{
+    width: 130%;
+}
 .nav{
     justify-self: end;
 }

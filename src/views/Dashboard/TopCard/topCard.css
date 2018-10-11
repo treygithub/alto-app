@@ -9,27 +9,35 @@
 }
 
 .section-a{
+
     justify-self: start;
     margin-top: .5em;
     margin-bottom: 1em;
     font-size: 2.0em;
 }
 .clock{
+    font-family: OptimaLTStd-Bold;
     font-size: 50%;
 }
 
 .section-b{
+    font-family: PxGrotesk-Bold;
     justify-self: start;
     font-size: 3.5em;
 }
 
 .section-c  {
+    font-family: Linotype-OptimaLTStd;
     justify-self: start;
     align-self: start;
     font-size: .9em;
 }
+.bold{
+    font-family: OptimaLTStd-Bold;
+}
 
 .nested{
+    font-family: PxGrotesk-Light;
     display: grid;
     grid-template-columns: repeat(3, 1fr);
     grid-auto-rows: minmax(auto,auto);
@@ -38,6 +46,7 @@
     align-items: stretch;
     font-size: .8em;
 }
+
 .nested > div{
     padding-top: .5em;
     justify-self: start;
@@ -52,12 +61,14 @@ hr{
     max-width: 90px;
 }
 .section-d{
+    font-family: PxGrotesk-Light;
     margin-top: 1.5em;
     justify-self: start;
     align-self: start;
     font-size: .9em;
 }
 .section-d-2{
+    font-family: OptimaLTStd-Bold;
     margin-top: .5em;
     justify-self: start;
     align-self: start;
@@ -74,6 +85,7 @@ hr{
     margin-top: 2em;
 }
 .btn1{
+    font-family: PxGrotesk-Light;
     width: 100%;
     height: 40px;
     background-color: white;
