@@ -9,17 +9,28 @@
     margin-top: 2em;
     margin-left: 2em;
     margin-right: 2em;
+    margin-bottom: 1em;
+    border-top:1px solid rgba(128, 128, 128, 0.158);
+}
+.profile-img{
+    width: 150%;
+}
+.power-img{
+    width: 150%;
 }
 .footer-a{
+    margin-top: 1em;
     justify-self: start;
     align-self: start;
 }
 .footer-b{
+    margin-top: 1em;
     justify-self: center;
     align-self: start;
     text-align: center;
 }
 .hr3{
+    margin-top: 1em;
     width: 90px;
     color: black;
     background-color: black;
@@ -27,6 +38,8 @@
     border-color: black;
 }
 .footer-c{
+    margin-top: 1em;
     justify-self: end;
     align-self: start;
+    margin-right: 1em;
 }

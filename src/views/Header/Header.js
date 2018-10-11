@@ -1,5 +1,6 @@
 import React, { Component } from 'react';
 import Logo from '../../images/Alto_logo.png';
+import Nav from '../../images/Kabob_nav.png';
 import './header.css';
 
 class Header extends Component {
@@ -7,7 +8,12 @@ class Header extends Component {
     return (
       <div>
         <div className="wrapper">
-          <img src={Logo} className="header-img" alt="logo"/>
+          <div className="header-img">
+            <img src={Logo} alt="logo"/>
+          </div>
+          <div className="nav">
+            <img src={Nav} alt="navigation"/>
+          </div>
         </div>
       </div>
     )

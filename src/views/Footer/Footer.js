@@ -15,7 +15,7 @@ class Footer extends Component {
                 DFW Int'l Airport<br/>ETA 5:39 PM <hr className="hr3"/>
             </div>
             <div className="footer-c">
-            <img src={Power} className="Power-img" alt="power button pic"/>
+            <img src={Power} className="power-img" alt="power button pic"/>
             </div>
         </div>
       </div>

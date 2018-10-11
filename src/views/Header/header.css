@@ -2,6 +2,16 @@
     display: grid;
     grid-template-columns: repeat(1,1fr);
     grid-auto-rows: minmax(50px,auto);
-    justify-items: center;
-    align-items: center;
+    justify-items: stretch;
+    align-items: stretch;
+  
+    margin-left: 1.5em;
+    margin-right: 1.5em;
+}
+.header-img{
+ justify-self: center;
+ margin-top: 1em;
+}
+.nav{
+    justify-self: end;
 }
