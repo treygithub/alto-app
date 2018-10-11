@@ -1,0 +1,77 @@
+.wrapper-top-card{
+    display: grid;
+    grid-template-columns: repeat(1,1fr);
+    grid-auto-rows: minmax(auto,auto);
+    justify-items: stretch;
+    align-items: stretch;
+    margin-left: 1.5em;
+    margin-right: 1.5em;
+}
+
+.section-a{
+    justify-self: start;
+    margin-top: .5em;
+    margin-bottom: 1em;
+    font-size: 2.0em;
+}
+.clock{
+    font-size: 50%;
+}
+
+.section-b{
+    justify-self: start;
+    font-size: 3.5em;
+}
+
+.section-c  {
+    justify-self: start;
+    align-self: start;
+    font-size: .9em;
+}
+
+.nested{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-auto-rows: minmax(auto,auto);
+    grid-gap: .5em;
+    justify-items: stretch;
+    align-items: stretch;
+    font-size: .8em;
+    margin-top: 2em;
+}
+.nested > div{
+    padding-top: .5em;
+    justify-self: start;
+    align-self: start;
+}
+hr{
+    min-width: 90px;
+    opacity: .2;
+}
+.hr2{
+    margin-top: .5em;
+    max-width: 90px;
+}
+.section-d{
+    margin-top: 2em;
+    justify-self: start;
+    align-self: start;
+    font-size: .9em;
+}
+.section-d-2{
+    margin-top: .5em;
+    justify-self: start;
+    align-self: start;
+    font-size: .9em;
+}
+.btn{
+    width: 100%;
+    margin-top: 1em;
+}
+.btn1{
+    width: 100%;
+    height: 40px;
+    background-color: white;
+    border: 1px solid gray;
+    opacity: .5; 
+}

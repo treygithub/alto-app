@@ -1,19 +1,22 @@
 import React, { Component } from 'react';
 import './css/font-familes.css';
+import Header from './views/Header/Header';
+import Footer from './views/Footer/Footer'
+// import Nav from './Component/Nav/Nav';
+import routes from './routes';
+import { withRouter } from "react-router-dom";
 
 class App extends Component {
   render() {
     return (
       <div>
-        <div>
-          <p style={{fontFamily:"PxGrotesk-Screen"}}>THIS IS A TEST, this is a test</p>
-        </div>
-        <div>
-          <p style={{fontFamily:"OptimaLTStd-BlackItalic"}}>THIS IS A TEST, this is a test</p>
-        </div>
+          <Header/>
+          {/* {this.props.location.pathname !== "/" && <Nav />} */}
+        {routes}
+        <Footer/>
       </div>
     );
   }
 }
 
-export default App;
+export default withRouter(App);

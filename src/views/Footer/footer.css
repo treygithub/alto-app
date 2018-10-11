@@ -1,0 +1,32 @@
+.footer-wrapper{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-auto-rows: minmax(auto,auto);
+    grid-gap: .5em;
+    justify-items: stretch;
+    align-items: stretch;
+    font-size: .8em;
+    margin-top: 2em;
+    margin-left: 2em;
+    margin-right: 2em;
+}
+.footer-a{
+    justify-self: start;
+    align-self: start;
+}
+.footer-b{
+    justify-self: center;
+    align-self: start;
+    text-align: center;
+}
+.hr3{
+    width: 90px;
+    color: black;
+    background-color: black;
+    height: 4px;
+    border-color: black;
+}
+.footer-c{
+    justify-self: end;
+    align-self: start;
+}

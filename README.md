@@ -10,3 +10,5 @@ access folder in command line and type following
 type git clone "ENTER URL FROM GITHUB HERE" npm init - then - npm install - to get the node modules & npm packages
 Once downloaded type npm run start in command line to fire the run script
 Happy - Hacking!
+
+Please note, the fonts are not for distribution and only provided for this exercise. Any unpermitted use of the fonts provided can be punishable by copyright law!
