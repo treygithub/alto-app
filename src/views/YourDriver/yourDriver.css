@@ -27,12 +27,12 @@
     font-family: PxGrotesk-Bold;
 }
 .content{
-    margin: 1em;
     font-family: PxGrotesk-Light;
+    font-size: .9em;
+    margin-bottom:4em; 
 }
 .btn{
     width: 100%;
-    margin-top: 2em;
     font-family: PxGrotesk-Light;
     width: 100%;
     height: 40px;
