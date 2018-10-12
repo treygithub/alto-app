@@ -4,8 +4,10 @@
     grid-auto-rows: minmax(auto,auto);
     justify-items: stretch;
     align-items: stretch;
+    margin-top: 5.5em;
     margin-left: 1.5em;
     margin-right: 1.5em;
+
 }
 
 .section-a{
