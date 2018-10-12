@@ -10,7 +10,7 @@
 }
 .header-img{
     display: grid;
-    margin-top: 1em;
+    margin-top: 1.5em;
     align-self: start;
     justify-self: center;
     position: absolute;

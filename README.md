@@ -1,6 +1,6 @@
 This is a coding challenge built by Robert J Hunnicutt III
 
-The tech stack used is HTML CSS JSX REACT.JS JAVASCRIPT, this project was bootstrapped with Create-react-app. Built mobile fist select iPhone/6/7/8 plus google chrome Tools for best experience.
+The tech stack used is HTML CSS JSX REACT.JS JAVASCRIPT, this project was bootstrapped with Create-react-app. Built mobile fist select iPhone/6/7/8 plus google chrome Tools phone view for best experience. 
 
 *** Standard Set Up *** 
 To view this project in your browser simple Fork this repository then clone -
