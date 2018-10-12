@@ -1,20 +1,27 @@
 .wrapper{
     display: grid;
-    grid-template-columns: repeat(1,1fr);
-    grid-auto-rows: minmax(50px,auto);
-    justify-items: stretch;
-    align-items: stretch;
-  
+    grid-template-columns: auto 50px;
+    grid-auto-rows: minmax(75px,auto);
+    justify-items: center;
+    align-items: center;
     margin-left: 1.5em;
     margin-right: 1.5em;
+    position: relative;
 }
 .header-img{
- justify-self: center;
- margin-top: 1em;
+    display: grid;
+    margin-top: 1em;
+    align-self: start;
+    justify-self: center;
+    position: absolute;
 }
 .h-img{
-    width: 130%;
+    width: 60px;
 }
 .nav{
+    margin-top: 1em;
+    margin-right: .5em;
     justify-self: end;
+    align-self: start;
+    position: absolute;
 }

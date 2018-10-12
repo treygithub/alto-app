@@ -6,7 +6,6 @@ import './header.css';
 class Header extends Component {
   render() {
     return (
-      <div>
         <div className="wrapper">
           <div className="header-img">
             <img src={Logo} className="h-img" alt="logo"/>
@@ -15,7 +14,6 @@ class Header extends Component {
             <img src={Nav} alt="navigation"/>
           </div>
         </div>
-      </div>
     )
   }
 }

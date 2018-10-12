@@ -1,14 +1,14 @@
 import React from 'react';
 import { Switch, Route } from 'react-router-dom';
-import Dashboard from './views/Dashboard/Dashboard';
-// import TopCard from './views/TopCard/TopCard';
+import YourDriver from './views/YourDriver/YourDriver';
+import TopCard from './views/Dashboard/TopCard/TopCard';
 
 export default  (
       
         <Switch>
-          <Route exact path='/' component={ Dashboard }/>
-          {/* <Route path='/TopCard' component={ TopCard }/>
-          <Route path='/Step2' component={ Step2 }/>
+          <Route exact path='/' component={ TopCard }/>
+          <Route path='/YourDriver' component={ YourDriver }/>
+          {/* <Route path='/Step2' component={ Step2 }/>
           <Route path='/Step3' component={ Step3 }/> */}
         </Switch>
       

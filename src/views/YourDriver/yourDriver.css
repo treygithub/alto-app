@@ -1,0 +1,41 @@
+.driver-wrapper-top{
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-auto-rows: minmax(280px,auto);
+}
+.driver-img{
+    background-image: url(../../images/Driver_photo.png);
+    background-repeat: none;
+    background-position-x: 45%;
+    background-position-y: 30%;
+    background-size: 179%;
+}
+.driver-wrapper-btm{
+    display: grid;
+    grid-template-columns: repeat(1,1fr);
+    grid-auto-rows: minmax(auto,auto);
+    margin-left: 1.5em;
+    margin-right: 1.5em;
+}
+.title{
+    font-size: .9em;
+    margin-top: 1em;
+    font-family: PxGrotesk-Regular;
+}
+.driver-name{
+    font-size: 4em;
+    font-family: PxGrotesk-Bold;
+}
+.content{
+    margin: 1em;
+    font-family: PxGrotesk-Light;
+}
+.btn{
+    width: 100%;
+    margin-top: 2em;
+    font-family: PxGrotesk-Light;
+    width: 100%;
+    height: 40px;
+    background-color: white;
+    opacity: .7;
+}
