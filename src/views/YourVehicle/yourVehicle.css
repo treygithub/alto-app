@@ -20,7 +20,6 @@
 .title{
     color: rgb(172,130,109);
     font-size: .9em;
-    margin-top: 1em;
     font-family: PxGrotesk-Regular;
 }
 .driver-name{
@@ -32,7 +31,7 @@
     font-size: .9em;
     margin-bottom:4em; 
 }
-.nested{
+.nested2{
     font-family: PxGrotesk-Light;
     display: grid;
     grid-template-columns: repeat(2, 1fr);
@@ -41,7 +40,7 @@
     justify-items: stretch;
     align-items: stretch;
     font-size: .8em;
-    margin-bottom: 5em;
+    margin-bottom: 6.5em;
 }
 
 .nested > div{

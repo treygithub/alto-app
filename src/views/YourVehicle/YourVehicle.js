@@ -12,9 +12,9 @@ class YourVehicle extends Component {
             </div>
           </div>
           <div className="driver-wrapper-btm">
-              <div className="title">YOUR DRIVER</div>
+              <div className="title">YOUR VEHICLE</div>
               <div className="driver-name">Alto 09</div>
-                <div className="nested">
+                <div className="nested2">
                     <div><hr/></div>
                     <div><hr/></div>
                     <div>Estimated Fare:<br/><span className="bold">$65 - $75</span>
