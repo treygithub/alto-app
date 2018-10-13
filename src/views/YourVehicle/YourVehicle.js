@@ -17,9 +17,9 @@ class YourVehicle extends Component {
                 <div className="nested2">
                     <div><hr/></div>
                     <div><hr/></div>
-                    <div>Estimated Fare:<br/><span className="bold">$65 - $75</span>
+                    <div>Make/Model<br/><span className="bold">2019 Volkswagen Atlas</span>
                     </div>
-                    <div>Passengers:<br/><span className="bold">1-5</span>
+                    <div>Color<br/><span className="bold">Pure White</span>
                 </div>
             </div>
               <div className="btn"><button className="btn1">CONTACT DRIVER</button></div>
