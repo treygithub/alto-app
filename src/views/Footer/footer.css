@@ -32,11 +32,11 @@
 }
 .hr3{
     margin-top: 1em;
-    width: 90px;
+    width: 150px;
     color: black;
     background-color: black;
     height: 4px;
-    border-color: black;
+    opacity: 1;
 }
 .footer-c{
     margin-top: 1em;
